@@ -17,7 +17,7 @@
   perform, display or sell this Software and/or its documentation for any purpose.
  
   YOU FURTHER ACKNOWLEDGE AND AGREE THAT THE SOFTWARE AND DOCUMENTATION ARE
-  PROVIDED “AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED,
+  PROVIDED ï¿½AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED,
   INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY, TITLE,
   NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL
   TEXAS INSTRUMENTS OR ITS LICENSORS BE LIABLE OR OBLIGATED UNDER CONTRACT,
@@ -205,7 +205,7 @@ public class DeviceView extends Fragment {
   		
   		switch (s) {
   		case OFF_OFF:
-  			img = buttonsoffoff;
+            img = buttonsoffoff;
   			break;
   		case OFF_ON:
   			img = buttonsoffon;
@@ -219,6 +219,8 @@ public class DeviceView extends Fragment {
   		default:
   			throw new UnsupportedOperationException();
   		}
+// actually setimageresources will set img, which points to the image show in drawable-mdpi etc..
+// refer online for setImageResource(int resrouceid);
 
   		mButton.setImageResource(img);
   	}
