@@ -208,7 +208,7 @@ public class DeviceView extends Fragment {
             img = buttonsoffoff; //comment1
   			break;
   		case OFF_ON:
-  			img = buttonsoffon;
+  			img = buttonsoffon; //comment2
   			break;
   		case ON_OFF:
   			img = buttonsonoff;
