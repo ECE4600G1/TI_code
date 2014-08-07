@@ -59,3 +59,4 @@ public class BleDeviceInfo {
   }
 
 }
+// update git,test1
