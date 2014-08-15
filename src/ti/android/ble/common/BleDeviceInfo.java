@@ -33,7 +33,7 @@
 
  **************************************************************************************************/
 package ti.android.ble.common;
-
+//comment this is a commit 
 import android.bluetooth.BluetoothDevice;
 
 public class BleDeviceInfo {
